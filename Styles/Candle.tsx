@@ -30,7 +30,7 @@ export default ({ candle, index, width, scaleY, scaleBody }: CandleProps) => {
   return (
     <>
       <Line
-        stroke = { fill }
+        stroke={fill}
         x1={x + width / 2}
         y1={scaleY(low)}
         x2={x + width / 2}

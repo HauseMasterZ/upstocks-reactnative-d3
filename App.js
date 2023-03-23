@@ -6,7 +6,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 function App() {
   return (
-    <MainContainer style={{backgroundColor: 'black'}}/>
+    < MainContainer style={{ backgroundColor: 'black' }
+    } />
+
   );
 }
 

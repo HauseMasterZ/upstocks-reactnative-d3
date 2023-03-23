@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "versionCode": 1
+      },
+      "package": "com.hausemaster.AwesomeProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "99e3dc8a-9bf1-4915-a73f-abadfc810d14"
+      }
     }
   }
 }
